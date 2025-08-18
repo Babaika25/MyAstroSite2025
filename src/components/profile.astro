@@ -1,0 +1,121 @@
+---
+import Avatar from "@/components/ui/avatar.astro";
+import Box from "@/components/box/index.astro";
+import BoxContent from "@/components/box/content.astro";
+
+import { PROFILE_INFO } from "@/lib/constants/profile";
+import { Briefcase } from "lucide-react";
+import { MessageSquareCode } from 'lucide-react';
+import { Gamepad2 } from 'lucide-react';
+import { Github } from 'lucide-react';
+import { Atom } from 'lucide-react';
+
+import VerifiedIcon from "@/components/ui/icons/verified.astro";
+---
+
+<div class="screen-line-after relative flex items-center p-4 md:border-x">
+  <div class="shrink-0">
+    <div class="relative z-1 mx-0.5 my-1">
+      <Avatar
+        className="size-20 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background sm:size-28"
+      />
+    </div>
+  </div>
+
+  <div class="flex flex-1 flex-col">
+    <div class="flex grow items-end pb-1 pl-4">
+      <div class="line-clamp-1 font-mono text-xs text-muted-foreground">
+        {PROFILE_INFO.slogan}
+      </div>
+    </div>
+
+    <div class="">
+      <h1 class="flex items-center gap-x-2 pl-4 text-2xl font-black">
+        {PROFILE_INFO.displayName}
+        <VerifiedIcon class="size-4 text-blue-500" />
+      </h1>
+
+      <div class="py-1 pl-4">
+        <p class="text-sm !font-normal">
+          {PROFILE_INFO.role}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{
+  /* Callout badge
+<div
+  class="screen-line-after inline-flex w-full items-center gap-2 border-x bg-yellow-100 px-3 py-2 text-sm font-semibold dark:bg-yellow-500/10"
+>
+  <span class="animate-bounce text-base">👋</span> I'm open to new opportunities
+  —
+  <a href={`mailto:${PROFILE_INFO.email}`} class="underline underline-offset-4">
+    get in touch
+  </a>
+</div>
+ */
+}
+
+<Box>
+  <BoxContent className="space-y-3">
+    <span class="flex items-center justify-start gap-2">
+      <Atom className="size-4" />
+      Учу студентов в
+      <a
+        href="https://rosnou.ru/"
+        target="_blank"
+        class="underline underline-offset-4"
+      >
+        РосНОУ
+      </a>
+    </span>
+    <span class="flex items-center justify-start gap-2">
+      <MessageSquareCode className="size-4" />
+      Работаю с облачной архитектурой в
+      <a
+        href="https://yandex.cloud/ru"
+        target="_blank"
+        class="underline underline-offset-4"
+      >
+        Яндекс.Облаке
+      </a>
+    </span>
+    <span class="flex items-center justify-start gap-2">
+      <Briefcase className="size-4" />
+      Здесь лежит моё
+      <a
+        href="https://disk.yandex.ru/i/jUQNyJv6-ST0kA"
+        target="_blank"
+        class="underline underline-offset-4"
+      >
+        Резюме
+      </a>
+    </span>
+
+    <span class="flex items-center justify-start gap-2">
+      <Gamepad2 className="size-4" />
+      Разрабатываю игры в
+      <a
+        href="https://montirovka.com/"
+        target="_blank"
+        class="underline underline-offset-4"
+      >
+        Монтировке
+      </a>
+    </span>
+
+    <span class="flex items-center justify-start gap-2">
+      <Github className="size-4" />
+      Мои репозитории на
+      <a
+        href="https://gitverse.ru/valerylinkov2504"
+        class="underline underline-offset-4"
+        target="_blank"
+      >
+        GitVerse
+      </a>
+    </span>
+  </BoxContent>
+</Box>

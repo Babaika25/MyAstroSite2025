@@ -1,0 +1,44 @@
+---
+import { getCollection } from "astro:content";
+import ArticleItem from "@/components/article-item.astro";
+import PageLayout from "@/layouts/page-layout.astro";
+
+import Pattern from "@/components/ui/pattern.astro";
+
+import Box from "@/components/box/index.astro";
+import BoxTitle from "@/components/box/title.astro";
+import BoxHeader from "@/components/box/header.astro";
+
+export async function getStaticPaths() {
+  const articels = await getCollection("blog");
+  return articels.map(article => ({
+    params: { category: article.data.category },
+  }));
+}
+
+const { category } = Astro.params;
+
+const articels = await getCollection("blog");
+const categoryArticles = articels.filter(
+  article => article.data.category === category
+);
+
+// Page properties
+const title = category;
+const description = `Изучение ${category}! Особенности, интересности и всё, что я смог подчерпнуть в работе с ${category}.`;
+---
+
+<PageLayout backLink="/articles" description={description} title={title}>
+  <Pattern />
+
+  <Box>
+    <BoxHeader>
+      <BoxTitle>Статьи</BoxTitle>
+    </BoxHeader>
+    <div
+      class="flex w-full flex-col items-start justify-start divide-y divide-border"
+    >
+      {categoryArticles.map(article => <ArticleItem article={article} />)}
+    </div>
+  </Box>
+</PageLayout>
