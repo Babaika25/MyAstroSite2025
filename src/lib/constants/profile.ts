@@ -1,5 +1,5 @@
 export const PROFILE_INFO = {
-  role: 'Enterprise Architect / Архитектор предприятия',
+  role: 'Enterprise Architect / Продюсер',
   logo: 'Валерий Линьков',
   slogan: 'Из хаоса — архитектура, из архитектуры — безопасность, из заний — уверенность',
   displayName: "Валерий Линьков",
