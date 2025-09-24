@@ -1,7 +1,7 @@
 export const PROFILE_INFO = {
   role: 'Enterprise Architect / Продюсер',
   logo: 'Валерий Линьков',
-  slogan: 'Из хаоса — архитектура, из архитектуры — безопасность, из заний — уверенность',
+  slogan: 'Из хаоса — архитектура, из архитектуры — безопасность, из знаний — уверенность',
   displayName: "Валерий Линьков",
   email: "valerylinkov2504@yandex.ru",
   about: `
