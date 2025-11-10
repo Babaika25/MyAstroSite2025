@@ -14,6 +14,8 @@ const formattedDate = new Intl.DateTimeFormat("ru-RU", {
   month: "short",
   year: "numeric",
 }).format(article.data.pubDatetime);
+const reading = getReadingTime(article.body!);
+const minutes = Math.max(1, Math.ceil(reading.minutes));
 ---
 
 <a
@@ -45,7 +47,7 @@ const formattedDate = new Intl.DateTimeFormat("ru-RU", {
       }
     </ul>
     <p class="text-xs text-foreground">
-      {formattedDate} | {getReadingTime(article.body!).text}
+      {formattedDate} | {minutes} мин. на прочтение
     </p>
   </div>
 </a>
