@@ -2,7 +2,6 @@ export type ExperiencePosition = {
     title: string;
     year: string;
     description: string;
-    skills: string[];
 };
 
 export type Experience = {
@@ -14,7 +13,6 @@ export type EducationPosition = {
     title: string;
     year: string;
     description: string;
-    skills: string[];
 };
 
 export type Education = {
