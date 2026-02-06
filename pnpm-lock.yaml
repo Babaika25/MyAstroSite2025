@@ -1187,7 +1187,7 @@ packages:
   devalue@5.1.1:
     resolution: {integrity: sha512-maua5KUiapvEwiEAe+XnlZ3Rh0GD+qI1J/nb9vrJc3muPXvcF/8gXYTWF76+5DAqHyDUtOIImEuo0YKE9mshVw==}
 
-  developer-icons@5.3.2:
+  developer-icons@5.3.1:
     resolution: {integrity: sha512-VWGbkNMFKM6PSG7rMDls7UjUaIMY1kvvCSF9b4BYmz3X27p0TEZj1ED5JqKZM4xn4cs4zncNq1nUiUdjDUNqjQ==}
     peerDependencies:
       react: ^18.2.0 || ^19.0.0
@@ -3751,7 +3751,7 @@ snapshots:
 
   devalue@5.1.1: {}
 
-  developer-icons@5.3.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  developer-icons@5.3.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
