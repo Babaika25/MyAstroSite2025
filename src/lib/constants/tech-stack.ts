@@ -9,6 +9,7 @@ import {
   Oracle,
   PostgreSQL,
   Linux,
+  Ansible,
   AWS,
   Docker,
   Jenkins,
@@ -82,6 +83,11 @@ export const TECH_STACK = [
     title: "Linux",
     href: "https://kernel.org/",
     icon: Linux,
+  },
+  {
+    title: "Ansible",
+    href: "https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ",
+    icon: Ansible,
   },
   {
     title: "AWS",
