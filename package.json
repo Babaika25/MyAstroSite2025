@@ -10,7 +10,7 @@
     "start": "astro preview --port $PORT"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
+    "@astrojs/check": "^0.9.2",
     "@astrojs/mdx": "^4.2.1",
     "@astrojs/react": "^4.2.1",
     "@fontsource-variable/ibm-plex-sans": "^5.2.6",
