@@ -32,7 +32,7 @@ import {
   DeepSeek,
 } from "developer-icons";
 
-import UnityIcon from '../../assets/unity-game-engine-icon.svg';
+import UnityIcon from '../../assets/unity-game-engine-icon.svg?raw';
 
 
 export const TECH_STACK = [
@@ -54,7 +54,7 @@ export const TECH_STACK = [
   {
     title: "Unity",
     href: "https://unity.com/ru",
-    icon: UnityIcon,
+    svgIcon: UnityIcon,
   },
   {
     title: "Java",

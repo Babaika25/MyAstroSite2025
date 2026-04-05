@@ -31,6 +31,9 @@ import { TECH_STACK } from "@/lib/constants/tech-stack";
                 <item.icon className="size-5" />
               </span>
             )}
+            {item.svgIcon && (
+              <span class="flex size-5 items-center justify-center" set:html={item.svgIcon} />
+            )}
             <span class="truncate text-sm">{item.title}</span>
           </a>
         ))
