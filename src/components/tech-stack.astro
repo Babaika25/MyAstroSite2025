@@ -27,7 +27,9 @@ import { TECH_STACK } from "@/lib/constants/tech-stack";
             ]}
           >
             {item.isSvgPath ? (
-              <span class="flex size-5 items-center justify-center" set:html={`<svg viewBox="0 0 24 24" class="size-5 fill-current"><path d="${item.icon}"/></svg>`} />
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="size-5 fill-current">
+                <path d={item.icon} />
+              </svg>
             ) : (
               <span class="flex size-5 items-center justify-center">
                 <item.icon className="size-5" />
