@@ -32,6 +32,8 @@ import {
   DeepSeek,
 } from "developer-icons";
 
+import UnityIcon from '../../assets/unity-game-engine-icon.svg';
+
 
 export const TECH_STACK = [
   {
@@ -48,6 +50,11 @@ export const TECH_STACK = [
     title: "C#",
     href: "https://dotnet.microsoft.com/ru-ru/languages/csharp",
     icon: CSharp,
+  },
+  {
+    title: "Unity",
+    href: "https://unity.com/ru",
+    icon: UnityIcon,
   },
   {
     title: "Java",
@@ -170,8 +177,8 @@ export const TECH_STACK = [
     icon: Markdown,
   },
   {
-    title: "Markdown",
-    href: "https://daringfireball.net/projects/markdown/",
+    title: "PowerShell",
+    href: "https://www.powershell.org/",
     icon: PowerShell,
   },
   {
