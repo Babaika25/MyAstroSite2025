@@ -32,7 +32,7 @@ import {
   DeepSeek,
 } from "developer-icons";
 
-import UnityIcon from '../../assets/unity-game-engine-icon.svg';
+import { mdiUnity } from '@mdi/js';
 
 
 export const TECH_STACK = [
@@ -40,161 +40,193 @@ export const TECH_STACK = [
     title: "Git",
     href: "https://git-scm.com/",
     icon: Git,
+    isSvgPath: false,
   },
   {
     title: "Python",
     href: "https://www.python.org/",
     icon: Python,
+    isSvgPath: false,
   },
     {
     title: "C#",
     href: "https://dotnet.microsoft.com/ru-ru/languages/csharp",
     icon: CSharp,
+    isSvgPath: false,
   },
   {
     title: "Unity",
     href: "https://unity.com/ru",
-    svgIcon: UnityIcon,
+    icon: mdiUnity,
+    isSvgPath: true,
   },
   {
     title: "Java",
     href: "https://www.java.com/ru/",
     icon: Java,
+    isSvgPath: false,
   },
   {
     title: "Azure",
     href: "https://azure.microsoft.com/ru-ru/",
     icon: Azure,
+    isSvgPath: false,
   },
   {
     title: "Django",
     href: "https://www.djangoproject.com/",
     icon: Django,
+    isSvgPath: false,
   },
   {
     title: "MySQL",
     href: "https://www.mysql.com/",
     icon: MySQL,
+    isSvgPath: false,
   },
   {
     title: "PostgreSQL",
     href: "https://zustand-demo.pmnd.rs/",
     icon: PostgreSQL,
+    isSvgPath: false,
   },
   {
     title: "Oracle",
     href: "https://www.oracle.com/",
     icon: Oracle,
+    isSvgPath: false,
   },
   {
     title: "Linux",
     href: "https://kernel.org/",
     icon: Linux,
+    isSvgPath: false,
   },
   {
     title: "Ansible",
     href: "https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ",
     icon: Ansible,
+    isSvgPath: false,
   },
   {
     title: "AWS",
     href: "https://aws.amazon.com/ru/",
     icon: AWS,
+    isSvgPath: false,
   },
   {
     title: "Docker",
     href: "https://www.docker.com/",
     icon: Docker,
+    isSvgPath: false,
   },
   {
     title: "Jenkins",
     href: "https://www.jenkins.io/",
     icon: Jenkins,
+    isSvgPath: false,
   },
   {
     title: "Kubernetes",
     href: "https://kubernetes.io/",
-    icon: Kubernetes
+    icon: Kubernetes,
+    isSvgPath: false,
   },
   {
     title: "NumPy",
     href: "https://numpy.org/",
-    icon: NumPy
+    icon: NumPy,
+    isSvgPath: false,
   },
   {
     title: "Tensorflow",
     href: "https://www.tensorflow.org/?hl=ru",
-    icon: Tensorflow
+    icon: Tensorflow,
+    isSvgPath: false,
   },
   {
     title: "Terraform",
     href: "https://developer.hashicorp.com/terraform",
     icon: Terraform,
+    isSvgPath: false,
   },
   {
     title: "Jira",
     href: "https://atlassian.com/software/jira",
     icon: Jira,
+    isSvgPath: false,
   },
   {
     title: "Notion",
     href: "https://www.notion.com/",
     icon: Notion,
+    isSvgPath: false,
   },
   {
     title: "Sublime",
     href: "https://www.sublimetext.com/",
     icon: Sublime,
+    isSvgPath: false,
   },
   {
     title: "VS Code",
     href: "https://code.visualstudio.com/",
     icon: VisualStudioCode,
+    isSvgPath: false,
   },
   {
     title: "Red Hat",
     href: "https://www.redhat.com/en",
     icon: RedHat,
+    isSvgPath: false,
   },
   {
     title: "Bash",
     href: "https://gnu.org/software/bash",
     icon: Bash,
+    isSvgPath: false,
   },
   {
     title: "Cloudflare",
     href: "https://www.cloudflare.com/",
     icon: Cloudflare,
+    isSvgPath: false,
   },
   {
     title: "JSON",
     href: "https://www.json.org/json-en.html",
     icon: JSON,
+    isSvgPath: false,
   },
   {
     title: "Markdown",
     href: "https://daringfireball.net/projects/markdown/",
     icon: Markdown,
+    isSvgPath: false,
   },
   {
     title: "PowerShell",
     href: "https://www.powershell.org/",
     icon: PowerShell,
+    isSvgPath: false,
   },
   {
     title: "WebAssembly",
     href: "https://webassembly.org/",
     icon: WebAssembly,
+    isSvgPath: false,
   },
     {
     title: "ChatGPT",
     href: "https://chatgpt.com/",
     icon: ChatGPT,
+    isSvgPath: false,
   },
     {
     title: "DeepSeek",
     href: "https://www.deepseek.com/",
     icon: DeepSeek,
+    isSvgPath: false,
   },
 ];
 
