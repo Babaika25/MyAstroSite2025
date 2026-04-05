@@ -32,7 +32,7 @@ import {
   DeepSeek,
 } from "developer-icons";
 
-import UnityIcon from '../../assets/unity-game-engine-icon.svg?raw';
+import UnityIcon from '../../assets/unity-game-engine-icon.svg';
 
 
 export const TECH_STACK = [
