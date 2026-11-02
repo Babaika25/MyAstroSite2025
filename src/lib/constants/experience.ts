@@ -2,6 +2,20 @@ import type { Experience } from "../types";
 
 export const EXPERIENCES: Experience[] = [
   {
+    company: "GameBox",
+    positions: [
+      { title: "Studio Head",
+        year: "09.2026 — настоящее время",
+        description: `
+- ♦ *Руководство студией по производству игр и обучению*
+- ♦ *Управление командой разработчиков*
+- ♦ *Менеджмент инфраструктуры*
+- ♦ *Ответственность за **устойчивость решений** и **технические риски***` 
+      },
+    ],
+  },
+
+  {
     company: "Монтировка",
     positions: [
       { title: "Technical Lead",
